@@ -20,8 +20,6 @@ This is pretty useful if you frequently change your Wordpress Theme files, and n
 
 This section describes how to install the plugin and get it working.
 
-e.g.
-
 1. Download the plugin and upload and unzip to your plugins directory as you would usually do.
 1. Activate the plugin from your Wordpress Admin.
 1. Go to the plugin’s options page to add your Google Analytics Tracking Code. You can find the options page under Settings >> GA Tracking Code
