@@ -1,6 +1,6 @@
 === Google Analytics Tracking Code Embeder ===
 Contributors: penuel
-Tags: google analytics, GA tracking code
+Tags: google, google analytics, GA tracking code
 Requires at least: 2.5
 Tested up to: 2.9.2
 Author URI: http://www.mixedwaves.com

@@ -1,5 +1,5 @@
 <div class="wrap">
-<div class="icon32" id="icon-options-gatce"><br></div>
+<div class="ico-gatce" id="icon-options-gatce"><br></div>
 <h2>Google Analytics Tracking Code Embeder</h2>
 <form method="post" action="options.php">
 <?php wp_nonce_field('update-options'); ?>

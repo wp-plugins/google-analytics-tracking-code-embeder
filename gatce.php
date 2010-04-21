@@ -33,6 +33,7 @@ function gatce() {
 function gatce_css(){
 
 	echo '<style type="text/css">
+		.ico-gatce{float:left;height:36px;margin:14px 6px 0 0;width:36px;}
 		#icon-options-gatce	{background:url("../wp-content/plugins/'. str_replace(basename(__FILE__),"", plugin_basename(__FILE__)) .'images/analytics.png") no-repeat scroll  transparent;}
 	</style>';
 }
