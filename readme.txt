@@ -1,8 +1,8 @@
 === Google Analytics Tracking Code Embeder ===
 Contributors: penuel
-Tags: google, google analytics, GA tracking code
+Tags: google, google analytics, GA tracking code, GA asynchronus code
 Requires at least: 2.5
-Tested up to: 2.9.2
+Tested up to: 3.1.1
 Author URI: http://www.mixedwaves.com
 Plugin URI: http://www.mixedwaves.com/google-analytics-tracking-code-embeder/
 Stable tag: trunk
@@ -28,10 +28,31 @@ This section describes how to install the plugin and get it working.
 
 == Prerequisites ==
 
-The plugin requires that your theme files have an action/template tag
+The plugin requires that your theme files have one of the following action/template tags depending on where you want to place your GA tracking code.
+
+`<?php wp_head(); ?>`
+
+If you want to place the tracking code inside the head section before the closing &lt;/head&gt; tag.
 
 `<?php wp_footer(); ?>`
 
-While this action is widely supported by most of the theme authors, chances are there that this action is not available in your theme file. In such a case, the plugin won’t be able to embed the Google Analytics tracking code to your theme.
+If you want to place the tracking code near page end/footer before the closing &lt;/body&gt; tag
 
-However, you can easily edit your footer.php file and add the above action (php code snippet/template tag) towards the end of the file, just before the closing </body> tag.
+While these actions/template tags are widely supported by most of the theme authors, chances are there that these actions are not available in your theme file. In such a case, the plugin won’t be able to embed the Google Analytics tracking code to your theme.
+
+However, you can easily edit your header.php file and add the `<?php wp_head(); ?>` tag just before the closing &lt;/head&gt; tag or for footer place the `<?php wp_footer(); ?>` tag towards the end of the file, just before the closing </body> tag.
+
+== Changelog ==
+
+= 1.0 =
+* Added support for the new asynchronus google analytics code. Tracking code can now be embeded inside the head section. 
+* Added more help text.
+* Added social plugins to make plugin popular.
+
+= 1.0 =
+* Support for embeding tracking code at the page footer before closing body tag
+
+== Upgrade Notice ==
+
+= 1.5 =
+Support for the new asynchronus google analytics tracking code added. Tracking code can now be embeded inside the head section.
