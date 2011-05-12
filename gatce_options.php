@@ -57,7 +57,7 @@
 		<li>To function this plugin correctly make sure your theme file has required template tags:<br/><br/>
 		<ol>
 			<li><pre style="display:inline">&lt;?php wp_head(); ?&gt;</pre> before closing &lt;/head&gt; tag  if you want to embed the code inside the head section. <a target="_blank" href="http://www.google.com/support/analytics/bin/answer.py?answer=174090">Recommended for the new asynchronous tracking code</a>.</li>
-			<li><pre style="display:inline">&lt;?php wp_footer(); ?&gt;</pre> before closing &lt;/body&gt; tag if you want to embed the code near the page footer. <a target="_blank" href="http://www.google.com/support/analytics/bin/answer.py?answer=55480">Recommended for the traditonal traking code</a>.</li>
+			<li><pre style="display:inline">&lt;?php wp_footer(); ?&gt;</pre> before closing &lt;/body&gt; tag if you want to embed the code near the page footer. <a target="_blank" href="http://www.google.com/support/analytics/bin/answer.py?answer=55480">Recommended for the traditonal tracking code</a>.</li>
 		</ol>
 
 		Get <a href="http://www.mixedwaves.com/google-analytics-tracking-code-embeder/" target="_blank">more info</a>
