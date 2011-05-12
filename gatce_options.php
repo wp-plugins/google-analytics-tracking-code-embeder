@@ -25,7 +25,7 @@
 	</select>
 	
 	<div id="gatc_placement_head" style="display:<?php echo (("H" == $gaPlacement)? "block":"none"); ?>">
-	 <a target="_blank" href="http://www.google.com/support/analytics/bin/answer.py?answer=174090">Recommended for the new asynchronous tracking code</a>. Requires <pre style="display:inline">&lt;?php wp_header();?&gt;</pre> template tag inside head section.
+	 <a target="_blank" href="http://www.google.com/support/analytics/bin/answer.py?answer=174090">Recommended for the new asynchronous tracking code</a>. Requires <pre style="display:inline">&lt;?php wp_head();?&gt;</pre> template tag inside head section.
 	</div>
 	<div id="gatc_placement_body" style="display:<?php echo (("B" == $gaPlacement)? "block":"none"); ?>">
 	 <a target="_blank" href="http://www.google.com/support/analytics/bin/answer.py?answer=55480">Recommended for the traditonal traking code</a>. Requires <pre style="display:inline">&lt;?php wp_footer();?&gt;</pre> template tag near the footer.

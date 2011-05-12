@@ -44,7 +44,10 @@ However, you can easily edit your header.php file and add the `<?php wp_head(); 
 
 == Changelog ==
 
-= 1.0 =
+= 1.5.1 =
+* Fixed a typo in help text.
+
+= 1.5 =
 * Added support for the new asynchronus google analytics code. Tracking code can now be embeded inside the head section. 
 * Added more help text.
 * Added social plugins to make plugin popular.
@@ -54,5 +57,5 @@ However, you can easily edit your header.php file and add the `<?php wp_head(); 
 
 == Upgrade Notice ==
 
-= 1.5 =
-Support for the new asynchronus google analytics tracking code added. Tracking code can now be embeded inside the head section.
+= 1.5.1 =
+Minor update: Fixed a typo in help text.
